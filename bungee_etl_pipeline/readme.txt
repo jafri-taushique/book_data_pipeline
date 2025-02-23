@@ -8,15 +8,17 @@ Airflow running on localhost:8080
 ID , Password for pg Admin - admin@admin.com, root
 pg admin running on localhost:5050
 
+The API KEYS has been set in the environment
+
 The LOGS from the ETL are stored in the LOG folder
 The ETL has been scheduled for UTC 09:00 @daily
-
-IN AIRFLOW WEB UI, UNDER DAG LOOK FOR book_data_pipeline. 
 
 ********Setup Instructions*********
 
 Run the following command to start the services:
-    docker-compose up -d
+    docker-compose up -d --build
+
+First user account has been created so you do not need to run <docker compose up airflow-init>
 
 The PostgreSQL and default_postgres connection used in airflow has been established for host 172.18.0.3
 Inspect the PostgreSQL container to confirm its IP address:
@@ -25,6 +27,9 @@ Inspect the PostgreSQL container to confirm its IP address:
 
 Ensure that the PostgreSQL container IP is 172.18.0.3, otherwise, tasks 4, 5, and 6 will fail with connection error.
 
+Open localhost:8080 login to Airflow UI with id airflow and password airflow
+under DAGS search for book_data_pipeline and trigger it manually
+You can check the Tables in pgAdmin under server/books_details_db/books
 
 
 

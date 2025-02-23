@@ -175,3 +175,31 @@
 [2025-02-23T17:24:03.126+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:03.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-02-23T17:24:03.142+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:03.142+0000] {dag.py:4180} INFO - Setting next_dagrun for book_data_pipeline to 2025-02-23 09:00:00+00:00, run_after=2025-02-24 09:00:00+00:00
 [2025-02-23T17:24:03.153+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/book_data_pipeline.py took 0.129 seconds
+[2025-02-23T17:24:33.288+0000] {processor.py:186} INFO - Started process (PID=829) to work on /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:24:33.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/book_data_pipeline.py for tasks to queue
+[2025-02-23T17:24:33.293+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:33.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:24:33.330+0000] {processor.py:925} INFO - DAG(s) 'book_data_pipeline' retrieved from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:24:33.352+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:33.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:24:33.372+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:24:33.372+0000] {dag.py:4180} INFO - Setting next_dagrun for book_data_pipeline to 2025-02-23 09:00:00+00:00, run_after=2025-02-24 09:00:00+00:00
+[2025-02-23T17:24:33.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/book_data_pipeline.py took 0.116 seconds
+[2025-02-23T17:25:03.497+0000] {processor.py:186} INFO - Started process (PID=893) to work on /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:25:03.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/book_data_pipeline.py for tasks to queue
+[2025-02-23T17:25:03.507+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:03.506+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:25:03.563+0000] {processor.py:925} INFO - DAG(s) 'book_data_pipeline' retrieved from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:25:03.602+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:03.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:25:03.616+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:03.616+0000] {dag.py:4180} INFO - Setting next_dagrun for book_data_pipeline to 2025-02-23 09:00:00+00:00, run_after=2025-02-24 09:00:00+00:00
+[2025-02-23T17:25:03.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/book_data_pipeline.py took 0.158 seconds
+[2025-02-23T17:25:34.361+0000] {processor.py:186} INFO - Started process (PID=957) to work on /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:25:34.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/book_data_pipeline.py for tasks to queue
+[2025-02-23T17:25:34.504+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:34.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:25:34.572+0000] {processor.py:925} INFO - DAG(s) 'book_data_pipeline' retrieved from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:25:34.600+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:34.599+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:25:34.618+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:25:34.618+0000] {dag.py:4180} INFO - Setting next_dagrun for book_data_pipeline to 2025-02-23 09:00:00+00:00, run_after=2025-02-24 09:00:00+00:00
+[2025-02-23T17:25:34.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/book_data_pipeline.py took 0.284 seconds
+[2025-02-23T17:26:04.766+0000] {processor.py:186} INFO - Started process (PID=1021) to work on /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:26:04.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/book_data_pipeline.py for tasks to queue
+[2025-02-23T17:26:04.773+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:04.773+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:26:04.804+0000] {processor.py:925} INFO - DAG(s) 'book_data_pipeline' retrieved from /opt/airflow/dags/book_data_pipeline.py
+[2025-02-23T17:26:04.827+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:04.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-23T17:26:04.840+0000] {logging_mixin.py:190} INFO - [2025-02-23T17:26:04.839+0000] {dag.py:4180} INFO - Setting next_dagrun for book_data_pipeline to 2025-02-23 09:00:00+00:00, run_after=2025-02-24 09:00:00+00:00
+[2025-02-23T17:26:04.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/book_data_pipeline.py took 0.104 seconds
