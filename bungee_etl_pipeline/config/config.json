@@ -1,0 +1,6 @@
+{
+    "api_urls": {
+      "nytimes": "https://api.nytimes.com/svc/books/v3/lists/current/hardcover-fiction.json",
+      "openlibrary": "https://openlibrary.org/api/books"
+    }
+}
